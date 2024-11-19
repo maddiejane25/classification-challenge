@@ -16,5 +16,5 @@ from sklearn.linear_model import LogisticRegression  <br>
 from sklearn.ensemble import RandomForestClassifier
 
 # Usage and conclusions
-When looking at how the models perform, we can see that the Logistic Regression model has an accuracy of 92%. The Random Forest Classifier was better at classifying the data with a 94% accuracy. This is likely due to the amount of features and the complexity of the data.
+When looking at how the models perform, although the Random Forest Classifier had a higher accuracy score, the Logistic Regression model performed better. The model scores of the LR model are closer in value, so we know the data set has been well trained. There is a bigger difference in the model scores of the RFC, suggesting the training model may be overfit. 
 
